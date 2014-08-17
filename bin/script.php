@@ -34,7 +34,7 @@ Derp
 
 				// Create archive and compress it using GZip
 				$phar = new PharData($archive.$pkg.".tar");
-				$phar->buildFromDirectory($pkg_dir.$subdir."lib/");
+				$phar->buildFromDirectory($pkg_dir.$subdir."root/");
 				$phar->compress(Phar::GZ);
 
 				// Add version later bacause "compress" is buggy
