@@ -1,0 +1,6 @@
+{
+	"name": "jQuery UI",
+	"version": "1.9.2",
+	"description": "jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library",
+	"require": ["jquery"]
+}
