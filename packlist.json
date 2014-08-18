@@ -1,6 +1,26 @@
 {
-	"stable": {
-	},
-	"dev": {
-	}
+    "stable": {
+        "jquery": {
+            "name": "jQuery",
+            "version": "2.1.1",
+            "description": "jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers."
+        },
+        "jquery-ui": {
+            "name": "jQuery UI",
+            "version": "1.9.2",
+            "description": "jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library",
+            "require": [
+                {
+                    "name": "jquery",
+                    "files": "jquery.js"
+                }
+            ]
+        },
+        "ace": {
+            "name": "Ace",
+            "version": "1.1.6",
+            "description": "Ace is a code editor written in JavaScript."
+        }
+    },
+    "dev": []
 }
